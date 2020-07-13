@@ -8,7 +8,7 @@ echo "<h1>You did it!</h1>";
 echo "You have a working dev lab and its linked to github, yay!";
 
 // customize where you are going to send visitors or yourself
-$thisPage = 'include.php';
+$thisPage = 'index.php';
 
 function test() {
     echo "error again";
