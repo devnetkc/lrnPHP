@@ -17,5 +17,5 @@ function test() {
 
 <?php // maybe will pretty this up one day ?>
 <p>
-    <button href="<?php echo $thisPage;?>">What I worked on last</button>
+    <button><a href="<?php echo $thisPage;?>">What I worked on last</a></button>
 </p>
