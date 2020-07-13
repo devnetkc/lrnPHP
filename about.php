@@ -1,6 +1,6 @@
 <?php 
 
-include 'inc/header.php';
+require_once 'inc/header.php';
 
 ?>
 
@@ -8,7 +8,7 @@ include 'inc/header.php';
 
 <?php 
 
-include 'inc/footer.php';
+require_once 'inc/footer.php';
 
 
 ?>
