@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 /*
 Developer: Ryan Valizan
@@ -33,29 +32,15 @@ $co = '<h2>Commentted out code above</h2>';
 
 
 
-
+include 'inc/header.php';
 
 ?>
 
 
-
-<html>
-    <head>
-        <title>PHP Include and Require Lesson</title>
-    </head>
-    <body>
-        <ul>
-            <li><a href="index.php">Home</a></li>
-            <li><a href="about.php">About Us</a></li>
-            <li><a href="contact.php">Contact Us</a></li>
-        </ul>
         <h2>Home</h2>
-    </body>
-    <footer>
-        <p>
-            PHP Include and Require Lesson &copy; 2020
-        </p>
-    </footer>
-</html>
 
+<?php 
 
+include 'inc/footer.php'
+
+?>
