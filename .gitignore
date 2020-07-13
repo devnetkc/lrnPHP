@@ -1,0 +1,2 @@
+# ignore mac folder meta data files
+*.DS_Store
