@@ -12,6 +12,7 @@ include ('server-info.php');
     <body>
         <div class="container">
             <h1>$_SERVER Examples</h1>
+            <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
                 <h2 class="pt-2">Server &amp; File Info</h2>
                 <?php if ($server): ?>
                     <ul class="list-group">
