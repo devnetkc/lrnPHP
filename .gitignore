@@ -1,6 +1,12 @@
 # ignore mac folder meta data files
 *.DS_Store
 
+# ignore nodeJS package-lock.json file, we don't need to track that
+*package-lock.json
+
+# ignore generated css files from live sass
+*.css
+*.css.map
 
 ## START Node.gitignore ##
 ## https://github.com/github/gitignore/blob/master/Node.gitignore
