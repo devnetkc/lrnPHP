@@ -4,5 +4,12 @@ This is my code from following along with the php videos and training exercises 
 Developer: Ryan Valizan
 
 
-## PHP Front to Back
+## Sources
+### PHP Front to Back
 <https://www.youtube.com/playlist?list=PLillGF-Rfqbap2IB6ZS4BBBcYPagAjpjn>
+
+### Git repository on GitHub
+<https://github.com/devnetkc/lrnPHP>
+
+### Project test url
+<https://lrnlab.vnetkc.com>
