@@ -4,3 +4,22 @@ h1, .h1 {
 h2, .h2 {
     color:$secondary;
 }
+
+body {
+    background-color:$blue;
+    color: $white;
+}
+
+small {
+    color: $info;
+}
+
+.btn-secondary {
+    color: $blue;
+}
+
+.my-card {
+    background-color: $dark-purple;
+    padding: .5rem 1.5rem;
+    border-radius: .5em;
+}
