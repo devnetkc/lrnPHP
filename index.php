@@ -6,35 +6,42 @@ include ('server-info.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>System Info</title>
+        <title>Get &amp; Post Requests</title>
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
         <div class="container">
             <h1>$_SERVER Examples</h1>
             <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
-                <h2 class="pt-2">Server &amp; File Info</h2>
-                <?php if ($server): ?>
-                    <ul class="list-group">
-                        <?php foreach ($server as $key => $value): ?>
-                            <li class="list-group-item">
-                                <strong><?php echo $key;?>: </strong>
-                                <?php //echo $value; ?>erased for security purposes
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
-                <?php endif; ?>
-                <h2 class="pt-2">Client Info</h2>
-                <?php if ($client): ?>
-                    <ul class="list-group">
-                        <?php foreach ($client as $key => $value): ?>
-                            <li class="list-group-item">
-                                <strong><?php echo $key;?>: </strong>
-                                <?php echo $value; ?>
-                            </li>
-                        <?php endforeach; ?>
-                    </ul>
-                <?php endif; ?>
+            <div class="row">
+                <div class="col-12-sm col-6-md col-4-lg col-3-xlg">
+                    <div class="container ml-3 my-card">
+                        <form>
+                            <div class="form-group">
+                                <label for="formInputEmail">
+                                    Email address
+                                </label>
+                                <input type="email" class="form-control" id="formInputEmail" aria-describedby="emailPrivacyNotice" placeholder="Enter email">
+                                <small id="emailPrivacyNotice">We'll never share your email with anyone else</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="formInputPassword">
+                                    Password
+                                </label>
+                                <input type="password" class="form-control" id="formInputPassword" placeholder="password">
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" class="form-check-input" id="formInputCheck1">
+                                <label class="form-check-label" for="formInputCheck1">Select checkmark value</label>
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <div class ="col-12-sm col-6-md col-8-lg col-3-xlg">
+
+                </div>
+            </div>
         </div>
         
     </body>
