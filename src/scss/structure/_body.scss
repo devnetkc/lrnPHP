@@ -19,8 +19,16 @@ small {
 }
 
 .my-card {
-    background-color: $pink;
     padding: .5rem 1.5rem;
     border-radius: .5em;
-    color: $dark-blue;
+
+    &.mc1 {
+        background-color: $pink;
+        color: $dark-blue;
+    }
+
+    &.mc2 {
+        background-color: $purple;
+        color: $yellow;
+    }
 }
