@@ -20,12 +20,12 @@ include ('includes/part14/part14Header.php');
             <div class="row">
                 <div class="col-12-sm col-6-md col-4-lg col-3-xlg">
                     <div class="container ml-3 my-card">
-                        <form method="POST" action="<?php $_SERVER['PHP_SELF'];?>">
+                        <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
                             <div class="form-group">
                                 <label for="formInputName">
                                     Name
                                 </label>
-                                <input type="text" class="form-control" name="formInputName" id="form1InputName" aria-describedby="emailPrivacyNotice" placeholder="Enter name">
+                                <input type="text" class="form-control" name="formInputName" id="form1InputName" aria-describedby="emailPrivacyNotice" placeholder="<?php echo isItData( filter_has_var(INPUT_POST, 'formInputName' ) ); ?>">
                             </div>
                             <div class="form-group">
                                 <label for="formInputEmail">
