@@ -25,6 +25,12 @@ small {
     &.mc1 {
         background-color: $pink;
         color: $dark-blue;
+
+        &.mc1-ml-3 {
+            @media (min-width: 768px) {
+                margin-left: inherit !important;
+            }
+        }
     }
 
     &.mc2 {

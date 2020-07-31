@@ -19,7 +19,7 @@ include ('includes/part14/part14Header.php');
             <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/Part-14-Filters-and-Validation" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
             <div class="row">
                 <div class="col-12-sm col-6-md">
-                    <div class="container ml-3 my-card mc1">
+                    <div class="container my-card mc1 ml-3 mc1-ml-3">
                         <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
                             <div class="form-group">
                                 <label for="formInputPostName">
