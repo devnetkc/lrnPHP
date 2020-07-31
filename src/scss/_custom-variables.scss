@@ -1,16 +1,25 @@
+
+$blue: #0D556E;
+$purple: #8A89C0;
+$pink: #CDA2AB;
+$cyan: #D8FDF3;
+$white: #ffffff;
+$azure-white: #ECFEF9;
+$dark-blue: #30465F;
+
+
 $red: #A54657;
-$blue: #515d7d;
 $light-blue: #5dc8dd;
 $yellow: #eaae5c;
 $orange: #F1A66A;
-$pink: #F47C74;
 $green: #39C047;
-$white: #e4ebe4;
 $dark-purple: #322b46;
+$light-purple: $purple;
+
 /* did it find this */
-$primary:       $yellow;
-$secondary:     $light-blue;
+$primary:       $cyan;
+$secondary:     $blue;
 $success:       $green;
-$info:          $pink;
+$info:          $cyan;
 $warning:       $orange;
 $danger:        $red;

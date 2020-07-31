@@ -11,15 +11,16 @@ body {
 }
 
 small {
-    color: $info;
-}
-
-.btn-secondary {
     color: $blue;
 }
 
+.btn-secondary {
+    color: $cyan;
+}
+
 .my-card {
-    background-color: $dark-purple;
+    background-color: $pink;
     padding: .5rem 1.5rem;
     border-radius: .5em;
+    color: $dark-blue;
 }
