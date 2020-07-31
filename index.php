@@ -18,7 +18,7 @@ include ('includes/part14/part14Header.php');
             <h1>Filters &amp; Validation</h1>
             <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/Part-14-Filters-and-Validation" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
             <div class="row">
-                <div class="col-12-sm col-6-md col-4-lg col-3-xlg">
+                <div class="col-12-sm col-6-md">
                     <div class="container ml-3 my-card mc1">
                         <form method="POST" action="<?php echo $_SERVER['PHP_SELF'];?>">
                             <div class="form-group">
@@ -48,12 +48,7 @@ include ('includes/part14/part14Header.php');
                         </form>
                     </div>
                 </div>
-                <div class ="col-12-sm col-6-md col-8-lg col-3-xlg">
-
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12-sm col-6-md col-4-lg col-3-xlg">
+                <div class ="col-12-sm col-6-md">
                     <div class="container ml-3 my-card mc2">
                         <form method="GET" action="<?php echo $_SERVER['PHP_SELF'];?>">
                             <div class="form-group">
@@ -82,7 +77,12 @@ include ('includes/part14/part14Header.php');
                             <button type="submit" class="btn btn-secondary">Submit</button>
                         </form>
                     </div>
+                
+
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-12-sm col-6-md col-4-lg col-3-xlg"></div>
                 <div class ="col-12-sm col-6-md col-8-lg col-3-xlg">
 
                 </div>
