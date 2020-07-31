@@ -6,13 +6,13 @@ include ('server-info.php');
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Get &amp; Post Requests</title>
+        <title>Part 14 -- Filters &amp; Validation</title>
         <link rel="stylesheet" href="css/style.min.css">
     </head>
     <body>
         <div class="container">
-            <h1>$_SERVER Examples</h1>
-            <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
+            <h1>Filters &amp; Validation</h1>
+            <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/Part-14-Filters-and-Validation" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
             <div class="row">
                 <div class="col-12-sm col-6-md col-4-lg col-3-xlg">
                     <div class="container ml-3 my-card">
