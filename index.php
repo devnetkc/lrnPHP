@@ -1,4 +1,5 @@
 <?php
+include ('includes/functions.php');
 include ('includes/part11/server-info.php');
 
 include ('includes/part14/part14Header.php');
