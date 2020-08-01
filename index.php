@@ -92,7 +92,13 @@ include ('includes/part14/part14Header.php');
         
     </body>
     <footer>
-        <script src="js/bootstrap.min.js" defer></script>
+        <script data-main="js/config" src="node_modules/requirejs/require.js"></script>
+        <script>
+            require(['config'], function(){
+                // add all other required scripts here
+                require(['init']);
+            });
+        </script>
     </footer>
 </html>
 
