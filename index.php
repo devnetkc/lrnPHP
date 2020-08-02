@@ -18,7 +18,10 @@ include ('includes/part14/part14Header.php');
         <div class="container">
             <h1>Filters &amp; Validation</h1>
             <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/Part-14-Filters-and-Validation" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
-            <h2 class="h3">This is pretty broken atm.  Lots of unrelated changes to the tutorial taking place right now.  Return soon, I'm working on a visitor log!</h2>
+            <h2 class="h3">The name fields are working again.</h2> 
+            <p>Still a lot of unrelated changes to the tutorial taking place right now.</p> 
+            <p>requireJS is implimented now, and custom work for message models can begin.</p>
+            <p>Return soon, I'm working on a visitor log!</p> 
             <div class="row">
                 <div class="col-12-sm col-6-md">
                     <div class="container my-card mc1 ml-3 mc1-ml-3">
@@ -50,6 +53,8 @@ include ('includes/part14/part14Header.php');
                         </form>
                     </div>
                 </div>
+
+                        
                 <div class ="col-12-sm col-6-md">
                     <div class="container ml-3 my-card mc2">
                         <form method="GET" action="<?php echo $_SERVER['PHP_SELF'];?>">
