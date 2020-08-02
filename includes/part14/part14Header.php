@@ -8,10 +8,10 @@ function isItData( $in, $input ) {
 
         switch ($input) {
             case 'GET':
-                $var = $_POST['formInputGetName'];
+                $var = $_GET['formInputGetName'] . ', you just performed a GET call!';
                 break;
             case 'POST':
-                $var = $_POST['formInputPostName'];
+                $var = $_POST['formInputPostName'] . ', you just performed a POST call!';
                 break;
             default:
                 $var = 'Input Not Found';
@@ -23,7 +23,7 @@ function isItData( $in, $input ) {
         // that moment you realize you've just spent 30min trying to find the issue and it was the wrong attr tag ;;
        // $ret = 'Your name is ' . $_POST['formInputName']; 
     } else {
-        $ret = 'Please enter your name';
+        $ret = 'To start, enter your name';
     }
     return $ret;
 }
