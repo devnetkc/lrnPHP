@@ -18,6 +18,7 @@ include ('includes/part14/part14Header.php');
         <div class="container">
             <h1>Filters &amp; Validation</h1>
             <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/Part-14-Filters-and-Validation" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
+            <h2 class="h3">This is pretty broken atm.  Lots of unrelated changes to the tutorial taking place right now.  Return soon, I'm working on a visitor log!</h2>
             <div class="row">
                 <div class="col-12-sm col-6-md">
                     <div class="container my-card mc1 ml-3 mc1-ml-3">
@@ -93,12 +94,7 @@ include ('includes/part14/part14Header.php');
     </body>
     <footer>
         <script data-main="js/config" src="node_modules/requirejs/require.js"></script>
-        <script>
-            require(['config'], function(){
-                // add all other required scripts here
-                require(['init']);
-            });
-        </script>
+        <script src="js/init.js" defer></script>
     </footer>
 </html>
 
