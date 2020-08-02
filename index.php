@@ -17,7 +17,7 @@ include ('includes/part14/part14Header.php');
     <body>
         <div class="container">
             <h1>Filters &amp; Validation</h1>
-            <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/Part-14-Filters-and-Validation" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
+            <p>Project repository and changes tracked on <a rel="nofollow" target="_blank" href="https://github.com/devnetkc/lrnPHP/tree/add-require-js" title="lrnPHP PHP Front to Back repository on GitHub">GitHub.</a></p>
             <h2 class="h3">The name fields are working again.</h2> 
             <p>Still a lot of unrelated changes to the tutorial taking place right now.</p> 
             <p>requireJS is implimented now, and custom work for message models can begin.</p>
