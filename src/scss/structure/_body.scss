@@ -23,18 +23,52 @@ small {
     border-radius: .5em;
 
     &.mc1 {
+        background-color: $yellow;
+        color: $dark-purple;
+
+        #visitorLogName {
+            min-width: 20.25rem;
+        }
+    }
+
+    &.mc2 {
         background-color: $pink;
         color: $dark-blue;
 
-        &.mc1-ml-3 {
+        &.mc2-ml-3 {
             @media (min-width: 768px) {
                 margin-left: inherit !important;
             }
         }
     }
 
-    &.mc2 {
+    &.mc3 {
         background-color: $purple;
         color: $yellow;
+
     }
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.lessonHeader {
+    background-color: $dark-blue;
+
+    h2 {
+        color: $cyan;
+    }
+}
+
+.construction-image {
+    width:100%;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+    margin: .2rem 0;
+    float: right;
+}
+
+.constructionBreak {
+    border-color: $yellow;
 }
