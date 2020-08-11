@@ -1,7 +1,7 @@
 <?php 
 
     if(empty($_POST['b_cc3cc6300ab9753ebb2e03df8_92b9c97470'])) {
-        if (!empty($_POST['full_name'])) {
+        if (!empty($_POST['visitorLogName'])) {
             /*
             $link = mysqli_connect($_ENV['MYSQL_SERVER'], $_ENV['MYSQL_USER'], $_ENV['MYSQL_PASSWORD'], $_ENV['MYSQL_DATABASE_VISITOR_LOG']);
             
@@ -60,5 +60,6 @@
     $jsonResponse .= '"statusMsg":"' . $responseMessage . '"';
     $jsonResponse .= '}';
 
-    print_r ($jsonResponse);
+    //print_r ($jsonResponse);
+    print_r ('Thanks for trying, this page isn\'t finished yet.');
 ?>
