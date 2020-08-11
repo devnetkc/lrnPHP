@@ -2,6 +2,7 @@
 
     if(empty($_POST['b_cc3cc6300ab9753ebb2e03df8_92b9c97470'])) {
         if (!empty($_POST['full_name'])) {
+            /*
             $link = mysqli_connect($_ENV['MYSQL_SERVER'], $_ENV['MYSQL_USER'], $_ENV['MYSQL_PASSWORD'], $_ENV['MYSQL_DATABASE_VISITOR_LOG']);
             
             // Check connection
@@ -29,7 +30,7 @@
             
             // Close connection
             mysqli_close($link);
-
+*/
         } else {
             $errorMsg = 'ERROR: full_name not set. end error msg ~';
             error_log($errorMsg);
