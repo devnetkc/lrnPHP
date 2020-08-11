@@ -22,6 +22,7 @@ include ('includes/part14/part14Header.php');
             <p>Still a lot of unrelated changes to the tutorial taking place right now.</p> 
             <p>Custom msg model work can begin now that requireJS is implimented.</p>
             <p>Return soon, I'm working on a visitor log!</p> 
+            <p>Front-end progress made to seperate visitor log idea from lesson area.  More functionality to come soon!</p>
             <div class="row mb-3">
                 <div class="col-12 col-md-1 col-lg-2 col-xl-3"></div>
                 <div class="col-12 col-md-10 col-lg-8 col-xl-6">
